@@ -2,6 +2,9 @@ tareas = []
 
 def agregar_tarea():
     titulo = input("Nombre de la tarea: ")
+    if titulo.strip() == "":
+        print("Error: el titulo no puede estar vacio")
+        return
     tareas.append(titulo)
     print("Tarea agregada")
 
