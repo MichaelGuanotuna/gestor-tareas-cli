@@ -11,7 +11,7 @@ def listar_tareas():
 
 def mostrar_menu():
     while True:
-        print("=== GESTOR DE TAREAS ===")
+        print("=== GESTOR DE TAREAS - MENU PRINCIPAL ===")
         print("1. Agregar tarea")
         print("2. Listar tareas")
         print("0. Salir")
